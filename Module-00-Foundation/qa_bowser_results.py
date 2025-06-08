@@ -60,7 +60,7 @@ print("=== QA Browser Test Results ===")
 # Format: "Chrome: 8/10 passed (80.0% success rate)"
 print(f"Chrome: {chrome_passed} passed ({chrome_success_rate} success rate) \n Firefox: {firefox_passed} passed ({firefox_success_rate} success rate) \n Safari: {safari_passed} passed ({safari_success_rate} success rate)")
 print("\n=== Overall Summary ===")
-print(f"Total tests executed: {total_tests} \n Total test passed: {total_passed} \n Overall sucess rate: {overall_success_rate} \n Best performing browser: {best_browser}({best_rate}%)")
+print(f"Total tests executed: {total_tests} \n Total test passed: {total_passed} \n Overall sucess rate: {overall_success_rate}% \n Best performing browser: {best_browser}({best_rate}%)")
 # TODO: Print overall statistics
 # Format: "Total tests executed: 30"
 # Format: "Total tests passed: 24" 
